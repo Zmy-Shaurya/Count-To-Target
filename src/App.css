@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(168, 168, 255);
+}
+
+.mainrender {
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+#buttonBox button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: rgb(239, 241, 247);
+    gap:20px;
+}
+
+
+#buttonBox button:hover {
+    background-color: rgb(200, 200, 255);
+}
+
+#buttonBox button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+header {
+    background-color: rgb(50, 50, 150);
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.winMessage {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    animation: winAnimation 3s ease infinite alternate;
+}
+
+@keyframes winAnimation {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
