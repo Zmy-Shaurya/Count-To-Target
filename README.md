@@ -8,12 +8,13 @@ A fun little math game built with **React** — made for learning about **React 
 
 - The game will give you a **random target number** between **1 and 9999**.
 - You can use math operation buttons:
-  - ➕ Increment
-  - ➖ Decrement
-  - ✖️ Multiply by 2
-  - ⏹️ Square
-  - √ Square Root
-  - 🔄 Reset
+  - ➕ Increment  
+  - ➖ Decrement  
+  - 0️⃣ Zero  
+  - 2️⃣ Double  
+  - ½ Half  
+  - ⏹️ Square  
+  - √ Root
 - The goal is to **reach the target number** in the **least number of moves**!
 
 ---
