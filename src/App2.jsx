@@ -20,7 +20,7 @@ function App2() {
 
             <h1>Try Creating {randomValue} in least amount of moves possible.</h1>
             <h1>your moves: {moves}</h1>
-            <h2>{count}</h2>
+            <h2>Current Number: {count}</h2>
 
             <div id='buttonBox'>
                 <button disabled={count===randomValue} onClick={increment}>➕ Increment</button>
