@@ -12,7 +12,7 @@ function App2() {
     const doublle = () => {setCount(count * 2); setMoves(moves+1)}
     const square = () => {setCount(count ** 2); setMoves(moves+1)}
     const sqroot = () => {setCount(count ** 0.5); setMoves(moves+1)}
-    const half = () => {setCount(count / 0.5); setMoves(moves+1)}
+    const half = () => {setCount(count / 2); setMoves(moves+1)}
 
     return (
         <div className="mainrender">
