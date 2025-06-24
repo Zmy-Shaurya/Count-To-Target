@@ -1,6 +1,6 @@
 # 🎯 Count To Target Game
 
-A fun little math game built with **React** — made for learning about **React State (useState)**, event handling, and conditional rendering.
+A fun little math game built with **React** — made for learning about **React State (useState)**, event handling, and conditional rendering. <br>
 **Play here!:-** [Count To Target](https://zmy-shaurya.github.io/Count-To-Target/)
 ---
 
